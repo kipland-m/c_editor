@@ -13,6 +13,6 @@ CFLAGS=-g -D__USE_FIXED_PROTOTYPES__ -ansi
 # -- Force the compiler to use the correct headers
 # -ansi -- Don't use GNU extensions. Stick to ANSI C.
 main: src/main.c
-				$(CC) $(CFLAGS) -o main src/main.c
+	$(CC) $(CFLAGS) -o main src/main.c
 clean:
-				rm -f main
+	rm -f main
